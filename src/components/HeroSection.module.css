@@ -1,0 +1,14 @@
+.content > h3 {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  font-size: clamp(3rem, 10vw, 5rem);
+  text-shadow: 0 0 5px white;
+  color: #000;
+}
+
+@media screen and (max-width: 280px) {
+  .content > h3 {
+    font-size: 2.4rem;
+  }
+}

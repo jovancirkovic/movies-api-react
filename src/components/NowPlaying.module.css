@@ -1,0 +1,42 @@
+.carousel {
+  cursor: grab;
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.inner {
+  display: flex;
+}
+
+.item {
+  padding: 3rem;
+}
+
+.item > img {
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+.arrows {
+  color: #fff;
+  font-size: 3rem;
+  width: 128px;
+  margin: 0 auto 5rem auto;
+}
+
+@media screen and (max-width: 540px) {
+  .item > img {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .carousel {
+    width: 80%;
+  }
+
+  .item > img {
+    height: 300px;
+  }
+}

@@ -1,3 +1,11 @@
+# The Movie Data Base API
+
+![Header/intro section for the Huddle landing page with curved sections](./public/desktop-preview.png)
+
+### Links
+
+- Live Site URL: [link](https://tmdb-dummy.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

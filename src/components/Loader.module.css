@@ -1,0 +1,10 @@
+.loader {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10rem auto;
+}
+
+.loader > img {
+  width: 80px;
+}
